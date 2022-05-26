@@ -1,7 +1,7 @@
 class Customers:
     greeting = "Welcome to Coffee Palace!"
 
-    def __int__(self, name, beverage, food, total):
+    def __init__(self, name, beverage, food, total):
         self.name = name
         self.beverage = beverage
         self.food = food
